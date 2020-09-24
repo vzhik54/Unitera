@@ -3,5 +3,5 @@ module.exports = {
   globals: {
       YANDEX: "https://yandex.ru"
     },
-  setupFilesAfterEnv: ['./jest.setup.js']
+  setupFilesAfterEnv: ["./jest.setup.js", "jest-allure/dist/setup"]
 };
